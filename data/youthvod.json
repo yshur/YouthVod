@@ -1,0 +1,152 @@
+{
+  "vod_name": "youth_vod",
+  "youth_movies": 
+  [
+	{
+      "id": 11,
+      "name": "תיכון אמריקאי",
+      "year": 2009,
+      "type": "comedy",
+      "description": "קומדיית נעורים שטופת הורמונים, המתרחשת בתיכון אמריקאי ועוקבת אחרי זוג צעיר שהתחתן בגיל מוקדם, אבל חווה כעת בעיות בשנת לימודיו האחרונה",
+      "duration": 83,
+      "director": "שון פטריק קאנון",
+      "actors": ["טאלאן טוריירו", "ג'יליאן מוריי", "אוברי או'דיי"]
+    }, {
+      "id": 21,
+      "name": "הפעם הראשונה",
+      "year": 2009,
+      "type": "comedy",
+      "description": "קומדיה רומנטית. ויקטור הוא נער בתיכון שמאוהב באניה, תלמידה בשכבה שמעליו, יפהפייה פופולארית ועשירה ועם זאת חמודה ולא סנובית",
+      "duration": 90,
+      "director": "ברברה טופסו רוטנבורג",
+      "actors": ["סקוט טיילור קומפטון", "דבון וורקהייזר", "טניה וורפילד"]
+    }, {
+      "id": 31,
+      "name": "אמריקן פאי",
+      "year": 1999,
+      "type": "comedy",
+      "description": "קומדיית נעורים שהפכה לסרט פולחן. ארבעה תיכוניסטים, חברים טובים, כורתים ביניהם ברית שעד טקס הסיום של בית הספר הם יצליחו לאבד את הבתולים. חסרי ניסיון לחלוטין, עם הרבה הורמונים משתוללים, הבחורים מנסים כל אחד בדרכו להשיג תוצאות עם המין השני",
+      "duration": 95,
+      "director": "פול וייץ",
+      "actors": ["ג'ייסון ביגס", "טארה ריד", "כריס קליין"]
+    }
+  ],
+  "youth_series": 
+	[
+		{
+			"id": 110,
+			"series_name": "הקוסמת",
+			"year": 2009,
+			"director": "גבריאלה פיורה",
+			"actors": ["פלורנסייה אוטרו"],
+			"seasons": 
+			[
+				{
+					"season_num": 1,
+					"episodes": 
+					[
+						{
+						  "episode_num": "1",
+						  "episode_description": "דוראנה הענייה עובדת בירקניה של דון אנטוניו",
+						  "duration": 22
+						}, {
+						  "episode_num": "2",
+						  "episode_description": "דוראנה מגלה שכדי לסייע",
+						  "duration": 23      
+						}, {
+						  "episode_num": "3",
+						  "episode_description": "דוראנה",
+						  "duration": 23         
+						}
+					]
+				}, 
+				{
+					"season_num": 2,
+					"episodes": 
+					[
+					  {
+						"episode_num": "1",
+						"episode_description": "עונה 2 פרק 1",
+						"duration": 22
+					  }, 
+					  {
+						"episode_num": "2",
+						"episode_description": "עונה 2 פרק 2",
+						"duration": 23       
+					  }, 
+					  {
+						"episode_num": "3",
+						"episode_description": "עונה 2 פרק 3",
+						"duration": 23         
+					  } 
+					]       
+				} 
+			]
+		}, 
+		{
+			"id": 210,
+			"series_name": "פינת אור",
+			 "year": 2009,
+			"director": "כריס מורנה",
+			"actors": ["סולדד פסטורוטי", "גווידו קאזקה", "סוזאנה לאנטרי"],
+			"seasons": 
+			[
+			    {
+				  "season_num": 1,
+				  "episodes": 
+				  [
+					{
+					  "episode_num": "1",
+					  "episode_description": "אלוורו חוזר מחופשה כדי לקבל חלק מירושת סבתו ויקטוריה סולאר, שהחליטה לחלקה בעודה בחיים",
+					  "duration": 22
+					}, {
+					  "episode_num": "2",
+					  "episode_description": "עליה להגיע בדרך המסוכנת אל הקוסם מארץ עוץ אשר נמצא בעיר הברקת",
+					  "duration": 23       
+					}, {
+					  "episode_num": "3",
+					  "episode_description": "אלוורו נחוש לקנות את לבם של הילדים כדי להציג אותם לסבתו כיתומים שלו",
+					  "duration": 23         
+					}
+				  ]
+			   }, 
+			   {
+				  "season_num": 2,
+				  "episodes": 
+				  [
+					 {
+						"episode_num": "1",
+						"episode_description": "עונה 2 פרק 1",
+						"duration": 22
+					  }, {
+						"episode_num": "2",
+						"episode_description": "עונה 2 פרק 2",
+						"duration": 23       
+					  }, {
+						"episode_num": "3",
+						"episode_description": "עונה 2 פרק 3",
+						"duration": 23         
+					  }        
+				  ]
+				}
+			]
+		}
+   ],
+  "youth_recorded": 
+  [
+	 {
+		"year": 1999,
+		"id": 71,
+		"name": "תהילה",
+		"duration": 106,
+		"recorded_time": "11/5/2017 23:40"
+	 }, 
+	 {
+		"year": 1999,
+		"id": 81,
+		"name": "בלופר",
+		"duration": 93,
+		"recorded_time": "11/3/2017 23:40"
+	  }
+	]
+}
