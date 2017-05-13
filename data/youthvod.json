@@ -1,152 +1,277 @@
 {
-  "vod_name": "youth_vod",
+  "name": "youth_vod",
+  "id": "170513173900",
   "youth_movies": 
   [
 	{
-      "id": 11,
-      "name": "תיכון אמריקאי",
-      "year": 2009,
-      "type": "comedy",
-      "description": "קומדיית נעורים שטופת הורמונים, המתרחשת בתיכון אמריקאי ועוקבת אחרי זוג צעיר שהתחתן בגיל מוקדם, אבל חווה כעת בעיות בשנת לימודיו האחרונה",
-      "duration": 83,
-      "director": "שון פטריק קאנון",
-      "actors": ["טאלאן טוריירו", "ג'יליאן מוריי", "אוברי או'דיי"]
+      "id": 170513174000,
+      "name": "The Basketball Diaries",
+      "year": 1995,
+	  "rating": 7.3,
+      "type": ["Drama", "Crime"],
+      "description": "A teenager finds his dreams of becoming a basketball star threatened after he free falls into the harrowing world of drug addiction.",
+      "duration": 102,
+      "director": "Scott Kalvert",
+      "stars": ["Leonardo DiCaprio", "Lorraine Bracco", "Marilyn Sokol"],
+	  "views": 2789
     }, {
-      "id": 21,
-      "name": "הפעם הראשונה",
-      "year": 2009,
-      "type": "comedy",
-      "description": "קומדיה רומנטית. ויקטור הוא נער בתיכון שמאוהב באניה, תלמידה בשכבה שמעליו, יפהפייה פופולארית ועשירה ועם זאת חמודה ולא סנובית",
-      "duration": 90,
-      "director": "ברברה טופסו רוטנבורג",
-      "actors": ["סקוט טיילור קומפטון", "דבון וורקהייזר", "טניה וורפילד"]
+      "id": 170513174400,
+      "name": "Youth Without Youth",
+      "year": 2007,
+	  "rating": 6.3,
+      "type": ["Drama", "Fantasy"],
+      "description": "A love story wrapped in a mystery. Set in World War II Europe, a professor is changed by a cataclysmic event and explores the mysteries of life.",
+      "duration": 124,
+      "director": "Francis Ford Coppola",
+      "stars": ["Tim Roth", "Alexandra Maria Lara", "Bruno Ganz"],
+	  "views": 1697
     }, {
-      "id": 31,
-      "name": "אמריקן פאי",
+      "id": 170513174400,
+      "name": "Boyhood",
+      "year": 2014,
+	  "rating": 7.9,
+      "type": ["Drama"],
+      "description": "The life of Mason, from early childhood to his arrival at college.",
+      "duration": 165,
+      "director": "Richard Linklater",
+      "stars": ["Ellar Coltrane", "Patricia Arquette", "Ethan Hawke"],
+	  "views": 977
+    }, {
+      "id": 170513175700,
+      "name": "Youth in Oregon",
+      "year": 2016,
+	  "rating": 5.3,
+      "type": ["Comedy", "Drama"],
+      "description": "A man is tasked with driving his embittered 80-year-old father-in-law cross country to be legally euthanized in Oregon, while along the way helping him rediscover a reason for living.",
+      "duration": 165,
+      "director": "Joel David Moore",
+      "stars": ["Frank Langella", "Billy Crudup", "Christina Applegate"],
+	  "views": 2450
+    }, {
+      "id": 170513180100,
+      "name": "10 Things I Hate About You",
       "year": 1999,
-      "type": "comedy",
-      "description": "קומדיית נעורים שהפכה לסרט פולחן. ארבעה תיכוניסטים, חברים טובים, כורתים ביניהם ברית שעד טקס הסיום של בית הספר הם יצליחו לאבד את הבתולים. חסרי ניסיון לחלוטין, עם הרבה הורמונים משתוללים, הבחורים מנסים כל אחד בדרכו להשיג תוצאות עם המין השני",
-      "duration": 95,
-      "director": "פול וייץ",
-      "actors": ["ג'ייסון ביגס", "טארה ריד", "כריס קליין"]
+	  "rating": 7.2,
+      "type": ["Comedy", "Drama", "Romance"],
+      "description": "A pretty, popular teenager can't go out on a date until her ill-tempered older sister does.",
+      "duration": 157,
+      "director": "Gil Junger",
+      "stars": ["Heath Ledger", "Julia Stiles", "Joseph Gordon-Levitt"],
+	  "views": 7257
+    }, {
+      "id": 170513180500,
+      "name": "No Way Out",
+      "year": 1950,
+	  "rating": 7.5,
+      "type": ["Crime", "Drama", "Film-Noir"],
+      "description": "A black doctor is assigned to treat two racist White, robbery suspects who are brothers, and when one dies, it causes tension that could start a race riot.",
+      "duration": 166,
+      "director": "Joseph L. Mankiewicz",
+      "stars": ["Richard Widmark", "Linda Darnell", "Stephen McNally"],
+	  "views": 3074
+    }, {
+      "id": 170513180700,
+      "name": "The Truth About Love",
+      "year": 2005,
+	  "rating": 5.4,
+      "type": ["Comedy", "Romance"],
+      "description": "As part of a drunken bet with her sister, a happily married woman sends an anonymous Valentine's card to her husband to see if he hides it. When he does, what was a prank leads to a series ...",
+      "duration": 160,
+      "director": "John Hay",
+      "stars": ["Dougray Scott", "Jennifer Love Hewitt", "David Christian"],
+	  "views": 1641
     }
-  ],
-  "youth_series": 
+  ], 
+  "youth_recorded": 
 	[
 		{
-			"id": 110,
-			"series_name": "הקוסמת",
-			"year": 2009,
-			"director": "גבריאלה פיורה",
-			"actors": ["פלורנסייה אוטרו"],
+			"id": 170513181300,
+			"name": "Day Out of Days",
+			"year": 2015,
+			"duration": 140,
+			"type": "movie"
+		}, 
+		{
+			"id": 170513181500,
+			"name": "And You Thought Your Parents Were Weird",
+			"year": 1991,
+			"duration": 152,
+			"type": "movie"
+		}, {
+			"id": 170513182000,
+			"name": "Wrong Place, Right Time - Season 1 | Episode 7",
+			"year": 2017,
+			"duration": 40,
+			"type": "episode"
+		}, 
+		{
+			"id": 170513182100,
+			"name": "A New Gang - Season 1 | Episode 12",
+			"year": 2012,
+			"duration": 10,
+			"type": "episode"
+		}, {
+			"id": 170513182200,
+			"name": "A Youthful Approach - Season 1 | Episode 6",
+			"year": 2011,
+			"duration": 21,
+			"type": "episode"
+		}, {
+			"id": 170513182300,
+			"name": "Youth or Consequences - Season 1 | Episode 15",
+			"year": 1987,
+			"duration": 22,
+			"type": "episode"
+		}
+	], 
+	"youth_series": 
+	[
+		{
+			"id": 170513182400,
+			"name": "Youth",
+			"year": 2017,
+			"description": "A drama that centers around the lives of a group of teens situated in a small Suburban town in Long Island. ",
+			"stars": ["Ty Andre", "Dennis Scarfeo", "David Fritts"],
 			"seasons": 
 			[
 				{
+					"id": 170513182700,
 					"season_num": 1,
 					"episodes": 
 					[
 						{
-						  "episode_num": "1",
-						  "episode_description": "דוראנה הענייה עובדת בירקניה של דון אנטוניו",
-						  "duration": 22
+							"id": 170513183120,
+							"episode_num": "1",
+							"name": "Pilot",
+							"duration": 22
 						}, {
-						  "episode_num": "2",
-						  "episode_description": "דוראנה מגלה שכדי לסייע",
-						  "duration": 23      
+							"id": 170513183224,
+							"episode_num": "2",
+							"name": "A New Day Has Come",
+							"duration": 22
 						}, {
-						  "episode_num": "3",
-						  "episode_description": "דוראנה",
-						  "duration": 23         
+							"id": 170513183233,
+							"episode_num": "3",
+							"name": "Bad Medicine",
+							"duration": 22
+						}, {
+							"id": 170513183240,
+							"episode_num": "4",
+							"name": "You Should Know Where I'm Coming From",
+							"duration": 22
+						}, {
+							"id": 170513183250,
+							"episode_num": "5",
+							"name": "Hurts So Good",
+							"duration": 22
+						}, {
+							"id": 170513183300,
+							"episode_num": "6",
+							"name": "Holding Us Back",
+							"duration": 22
+						}, {
+							"id": 170513183320,
+							"episode_num": "7",
+							"name": "Wrong Place, Right Time",
+							"duration": 22
 						}
 					]
-				}, 
+				}
+			]       
+		},  {
+			"id": 170513183600,
+			"name": "South Park",
+			"year": 1997,
+			"description": "Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado. ",
+			"stars": ["Trey Parker", "Matt Stone", "Isaac Hayes"],
+			"seasons": 
+			[
 				{
+					"id": 170513183900,
+					"season_num": 1,
+					"episodes": 
+					[
+						{
+							"id": 170513184300,
+							"episode_num": "1",
+							"name": "Unaired Pilot",
+							"duration": 22
+						}, {
+							"id": 170513184310,
+							"episode_num": "2",
+							"name": "Cartman Gets an Anal Probe",
+							"duration": 22
+						}, {
+							"id": 170513184320,
+							"episode_num": "3",
+							"name": "Weight Gain 4000",
+							"duration": 22
+						}, {
+							"id": 170513184340,
+							"episode_num": "4",
+							"name": "Volcano",
+							"duration": 22
+						}, {
+							"id": 170513184350,
+							"episode_num": "5",
+							"name": "Big Gay Al's Big Gay Boat Ride",
+							"duration": 22
+						}, {
+							"id": 170513184355,
+							"episode_num": "6",
+							"name": "An Elephant Makes Love to a Pig",
+							"duration": 22
+						}, {
+							"id": 170513184359,
+							"episode_num": "7",
+							"name": "Death",
+							"duration": 22
+						}					
+					]
+				}, {
+					"id": 170513184400,
 					"season_num": 2,
 					"episodes": 
 					[
-					  {
-						"episode_num": "1",
-						"episode_description": "עונה 2 פרק 1",
-						"duration": 22
-					  }, 
-					  {
-						"episode_num": "2",
-						"episode_description": "עונה 2 פרק 2",
-						"duration": 23       
-					  }, 
-					  {
-						"episode_num": "3",
-						"episode_description": "עונה 2 פרק 3",
-						"duration": 23         
-					  } 
-					]       
-				} 
-			]
-		}, 
-		{
-			"id": 210,
-			"series_name": "פינת אור",
-			 "year": 2009,
-			"director": "כריס מורנה",
-			"actors": ["סולדד פסטורוטי", "גווידו קאזקה", "סוזאנה לאנטרי"],
-			"seasons": 
-			[
-			    {
-				  "season_num": 1,
-				  "episodes": 
-				  [
-					{
-					  "episode_num": "1",
-					  "episode_description": "אלוורו חוזר מחופשה כדי לקבל חלק מירושת סבתו ויקטוריה סולאר, שהחליטה לחלקה בעודה בחיים",
-					  "duration": 22
-					}, {
-					  "episode_num": "2",
-					  "episode_description": "עליה להגיע בדרך המסוכנת אל הקוסם מארץ עוץ אשר נמצא בעיר הברקת",
-					  "duration": 23       
-					}, {
-					  "episode_num": "3",
-					  "episode_description": "אלוורו נחוש לקנות את לבם של הילדים כדי להציג אותם לסבתו כיתומים שלו",
-					  "duration": 23         
-					}
-				  ]
-			   }, 
-			   {
-				  "season_num": 2,
-				  "episodes": 
-				  [
-					 {
-						"episode_num": "1",
-						"episode_description": "עונה 2 פרק 1",
-						"duration": 22
-					  }, {
-						"episode_num": "2",
-						"episode_description": "עונה 2 פרק 2",
-						"duration": 23       
-					  }, {
-						"episode_num": "3",
-						"episode_description": "עונה 2 פרק 3",
-						"duration": 23         
-					  }        
-				  ]
+						{
+							"id": 170513184600,
+							"episode_num": "1",
+							"name": "Pinkeye",
+							"duration": 22
+						}, {
+							"id": 170513184610,
+							"episode_num": "2",
+							"name": "Starvin' Marvin",
+							"duration": 22
+						}, {
+							"id": 170513184620,
+							"episode_num": "3",
+							"name": "Mr. Hankey, the Christmas Poo",
+							"duration": 22
+						}, {
+							"id": 170513184640,
+							"episode_num": "4",
+							"name": "Damien",
+							"duration": 22
+						}, {
+							"id": 170513184650,
+							"episode_num": "5",
+							"name": "Tom's Rhinoplasty",
+							"duration": 22
+						}, {
+							"id": 170513184655,
+							"episode_num": "6",
+							"name": "Mecha-Streisand",
+							"duration": 22
+						}, {
+							"id": 170513184659,
+							"episode_num": "7",
+							"name": "Cartman's Mom Is a Dirty Slut",
+							"duration": 22
+						}					
+					]
 				}
 			]
 		}
-   ],
-  "youth_recorded": 
-  [
-	 {
-		"year": 1999,
-		"id": 71,
-		"name": "תהילה",
-		"duration": 106,
-		"recorded_time": "11/5/2017 23:40"
-	 }, 
-	 {
-		"year": 1999,
-		"id": 81,
-		"name": "בלופר",
-		"duration": 93,
-		"recorded_time": "11/3/2017 23:40"
-	  }
 	]
 }
