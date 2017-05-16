@@ -43,7 +43,7 @@
 	  "rating": 5.3,
       "type": ["Comedy", "Drama"],
       "description": "A man is tasked with driving his embittered 80-year-old father-in-law cross country to be legally euthanized in Oregon, while along the way helping him rediscover a reason for living.",
-      "duration": 165,
+      "duration": 105,
       "director": "Joel David Moore",
       "stars": ["Frank Langella", "Billy Crudup", "Christina Applegate"],
 	  "views": 2450
@@ -54,7 +54,7 @@
 	  "rating": 7.2,
       "type": ["Comedy", "Drama", "Romance"],
       "description": "A pretty, popular teenager can't go out on a date until her ill-tempered older sister does.",
-      "duration": 157,
+      "duration": 97,
       "director": "Gil Junger",
       "stars": ["Heath Ledger", "Julia Stiles", "Joseph Gordon-Levitt"],
 	  "views": 7257
@@ -65,7 +65,7 @@
 	  "rating": 7.5,
       "type": ["Crime", "Drama", "Film-Noir"],
       "description": "A black doctor is assigned to treat two racist White, robbery suspects who are brothers, and when one dies, it causes tension that could start a race riot.",
-      "duration": 166,
+      "duration": 106,
       "director": "Joseph L. Mankiewicz",
       "stars": ["Richard Widmark", "Linda Darnell", "Stephen McNally"],
 	  "views": 3074
@@ -76,7 +76,7 @@
 	  "rating": 5.4,
       "type": ["Comedy", "Romance"],
       "description": "As part of a drunken bet with her sister, a happily married woman sends an anonymous Valentine's card to her husband to see if he hides it. When he does, what was a prank leads to a series ...",
-      "duration": 160,
+      "duration": 100,
       "director": "John Hay",
       "stars": ["Dougray Scott", "Jennifer Love Hewitt", "David Christian"],
 	  "views": 1641
@@ -88,14 +88,14 @@
 			"id": 170513181300,
 			"name": "Day Out of Days",
 			"year": 2015,
-			"duration": 140,
+			"duration": 80,
 			"type": "movie"
 		}, 
 		{
 			"id": 170513181500,
 			"name": "And You Thought Your Parents Were Weird",
 			"year": 1991,
-			"duration": 152,
+			"duration": 92,
 			"type": "movie"
 		}, {
 			"id": 170513182000,
