@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouthVOD Web Service</title>
+    <META charset="UTF-8">
+    <link rel="stylesheet" href="includes/style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="includes/script.js"></script>
+
+  </head>
+  <body>
+    <div id="wrapper" >
+      <h1>WELCOME TO YOUTH VOD ITEMS WEB SERVICE</h1> 
+        <section class="api1">
+          <h3>get all vod DB:</h3>
+          <p>If you want to get all the database of Youth-VOD, 
+          you can go to the link: <a href="http://localhost:3000/getAllVodDB" target="_blank">
+          http://localhost:3000/getAllVodDB</a>.<br>
+          you can see the result by click on the button below:</p>
+          <button id="button" onclick="getAllVodDB()" id="getAllVodDB">getAllVodDB</button>
+          <p></p>
+        </section>
+        <section class="api1">
+          <h3>get all youth items:</h3>
+          <p>for get all items with only their important properties
+           (without "id" etc.), you need the link: 
+           <a href="http://localhost:3000/getAllYouthItems" target="_blank">
+           http://localhost:3000/getAllYouthItems</a>.<br> 
+           you can see the result by click on the button below:</p>
+          <button id="button" onclick="getAllYouthItems()" id="getAllYouthItems">getAllYouthItems</button>         
+        </section>
+        <section class="api1">
+          <h3>get star data:</h3>
+          <p>you can get items according to name of star actor that participate in the movie.
+          you need send to the link <a href="http://localhost:3000/getStarData" target="_blank">http://localhost:3000/getStarData</a>
+           variable on name "star" at post method.<br>
+           You can fill the 'star' field and click on the button below 
+           for check the result:</p>
+          <form action="" method="">
+            <h5>getStarData</h5>
+            <p><label>Star-Name: </label>
+            <input name="star" type="text" id="star" value="Joseph Gordon-Levitt"></p>
+            <input type="button" onclick="getStarData()" id="button" value="getStarData"></button> 
+          </form>
+        </section>
+        <section class="api">
+          <h3>get items by year and min duration</h3>
+          <p>you can get items according to year of production and minimum duration.
+          you can do that by entering the following URL:<br>
+          http://localhost:3000/getStarData/<span>year</span>/<span>duration</span><br>
+          you can go to this URL on get method or on put.<br>
+          you can also pass these vars in the body on post method.<br>
+          you can check all methods in the forms below:</p>
+          <form action="" method="">
+            <h5>GET - getItemsByYearAndMinDuration</h5>
+            <p><label>year: </label>
+            <input name="year" type="number" id="getyear" value="2015"></p>
+            <p><label>dutation: </label>
+            <input name="time" type="number" id="gettime" value="30"></p>
+            <input type="button" onclick="getItemsByYearAndMinDuration()" id="button"
+             value="getItemsByYearAndMinDuration"></button> 
+          </form>
+          <form action="" method="">
+            <h5>PUT - getItemsByYearAndMinDuration</h5>
+            <p><label>year: </label>
+            <input name="year" type="number" id="putyear" value="2015"></p>
+            <p><label>dutation: </label>
+            <input name="time" type="number" id="puttime" value="30"></p>
+            <input type="button" onclick="putItemsByYearAndMinDuration()" id="button"
+             value="getItemsByYearAndMinDuration"></button>
+          </form>
+          <form action="" method="">
+            <h5>POST - getItemsByYearAndMinDuration</h5>
+            <p><label>year: </label>
+            <input name="year" type="number" id="postyear" value="2015"></p>
+            <p><label>dutation: </label>
+            <input name="time" type="number" id="posttime" value="30"></p>
+            <input type="button" onclick="postItemsByYearAndMinDuration()" id="button"
+             value="getItemsByYearAndMinDuration"></button>            
+          </form>
+      <section class="result"></section>
+    </div>           
+  </body>
+</html>

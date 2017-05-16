@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+footer, header, nav, main, article, section, aside {
+  display: block;
+}
+body  {
+  background: #b3b3b3;
+}
+#wrapper  {
+  margin: 0 auto;
+  background: #d9d9d9;
+  max-width: 1000px;
+  min-height: 1200px;
+  font-family: "Tahoma", Times, serif;
+  padding-left: 40px;
+}
+.result {
+  width: 100%; 
+  display : inline-block ;
+  border: 1px black solid;
+  background: #ffffff;
+}
+h1  {
+  font-size: 150%;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+p {
+  margin: 5px;
+}
+.api1 {
+    min-height: 290px;
+    width: 290px;
+    display: inline;
+    float: left;
+    margin: 20px;
+    border: 1px solid black;    
+}
+.api {
+  margin-right: 20px;
+  float: left;
+  display: block;
+  border: 1px solid black;
+}
+h3  {
+  margin-top: 5px;
+}
+label {
+  width : 150px ; 
+  display : block ; 
+  margin-right : 5px;
+}
+p input {       
+  width : 200px;
+  height : 22px;
+  border-radius : 5px ; 
+  border: 1px solid black;     
+}
+input:focus {
+  box-shadow : 5px 5px 10px gray;
+}
+#button {
+  border-radius : 5px ;  
+  border :2px solid blue; 
+  box-shadow : 5px 5px 10px gray;
+  height: 30px;
+  font-weight: bold;
+  background: #8c8c8c;
+  width : 200px;
+  margin: 0 auto;
+}
+form {
+  border: 0.5px dotted gray;
+  display: inline;
+  float: left;
+  margin: 20px;
+}
+span {
+  color: red;
+}
