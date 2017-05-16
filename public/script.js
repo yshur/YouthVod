@@ -1,6 +1,6 @@
 
 function getAllVodDB() {
-  $.get("http://localhost:3000/getAllVodDB",
+  $.get("https://youthvod.herokuapp.com/getAllVodDB",
     function(data) {
       $(".result").empty();
       $(".result").append(JSON.stringify(data));
@@ -8,7 +8,7 @@ function getAllVodDB() {
   });
 };
 function getAllYouthItems() {
-  $.get("http://localhost:3000/getAllYouthItems",
+  $.get("https://youthvod.herokuapp.com/getAllYouthItems",
     function(data) {
       $(".result").empty();
       $(".result").append(JSON.stringify(data));
@@ -18,7 +18,7 @@ function getAllYouthItems() {
 function getStarData() {
   var star1=$('#star').val();
   console.log(star1);
-  $.post("http://localhost:3000/getStarData/",
+  $.post("https://youthvod.herokuapp.com/getStarData/",
     {star:star1},    
     function(data) {
       $(".result").empty();
@@ -29,7 +29,7 @@ function getStarData() {
 function getItemsByYearAndMinDuration() {
   var year=$('#getyear').val();
   var time=$('#gettime').val();
-  $.get("http://localhost:3000/getItemsByYearAndMinDuration/"+year+"/"+time,
+  $.get("https://youthvod.herokuapp.com/getItemsByYearAndMinDuration/"+year+"/"+time,
     function(data) {
       $(".result").empty();
       $(".result").append(JSON.stringify(data));
@@ -40,9 +40,9 @@ function putItemsByYearAndMinDuration() {
   var year=$('#putyear').val();
   var time=$('#puttime').val();
   var arr ={'year':year,'time':time};
-  console.log('http://localhost:3000/getItemsByYearAndMinDuration/'+year+'/'+time);
+  console.log('https://youthvod.herokuapp.com/getItemsByYearAndMinDuration/'+year+'/'+time);
   $.ajax({
-    url : 'http://localhost:3000/getItemsByYearAndMinDuration/'+year+'/'+time,
+    url : 'https://youthvod.herokuapp.com/getItemsByYearAndMinDuration/'+year+'/'+time,
     type : 'PUT',
     data: arr,
     success : function(data){
@@ -58,7 +58,7 @@ function putItemsByYearAndMinDuration() {
 function postItemsByYearAndMinDuration() {
   var year1=$('#postyear').val();
   var time1=$('#posttime').val();
-  $.post("http://localhost:3000/getItemsByYearAndMinDuration/",
+  $.post("https://youthvod.herokuapp.com/getItemsByYearAndMinDuration/",
     {year:year1, time:time1},
     function(data) {
       $(".result").empty();
