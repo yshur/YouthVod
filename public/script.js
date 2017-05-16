@@ -39,12 +39,21 @@ function getItemsByYearAndMinDuration() {
 function putItemsByYearAndMinDuration() {
   var year=$('#putyear').val();
   var time=$('#puttime').val();
-  $.put("http://localhost:3000/getItemsByYearAndMinDuration/"+year+"/"+time,
-    function(data) {
-      $(".result").empty();
-      $(".result").append(JSON.stringify(data));
-      console.log("Return data: "+JSON.stringify(data));
-    });
+  var arr ={'year':year,'time':time};
+  console.log('http://localhost:3000/getItemsByYearAndMinDuration/'+year+'/'+time);
+  $.ajax({
+    url : 'http://localhost:3000/getItemsByYearAndMinDuration/'+year+'/'+time,
+    type : 'PUT',
+    data: arr,
+    success : function(data){
+        $(".result").empty();
+        $(".result").append(JSON.stringify(data));
+        console.log("Return data: "+JSON.stringify(data));
+    },
+    error: function () {
+        console.log("error From Put");
+    }
+  });
 };
 function postItemsByYearAndMinDuration() {
   var year1=$('#postyear').val();
