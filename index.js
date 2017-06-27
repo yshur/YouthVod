@@ -11,6 +11,10 @@ app.use('/includes', express.static(`${__dirname}/public`));
 
 app.all('*', (req, res, next) => {
   console.log("runs for all HTTP verbs first");
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers",
+  "Origin, X-Requested-With, Content-Type, Accept");
+  res.set("Content-Type", "application/json");
   next();
 });
 
