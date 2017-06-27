@@ -26,47 +26,49 @@ app.get('/', (req,res) => {
   res.sendFile(`${__dirname}/index.html`);
   });
 
-app.get('/getAllYouthItems', data.getAllYouthItems);
-  //, (req,res) => {
- //  console.log('getAllYouthItems');
-	// data.getAllYouthItems();
- //  //console.log(`${answer}`);
-	// //res.status(200).json(answer);
- //  });
-// app.post('/getItemsByYear/', (req,res) => {
-//   var year1 = req.body.year;
-//   console.log('getItemsByYear');
-// 	console.log(`post: year = ${req.body.year}`);
-// 	var answer = data.getItemsByYear(year1);
-// 	res.status(200).json(answer);
-//   });
-// app.get('/getItemsByGenreAndWord/:genre/:word', (req,res) => {
-// 	var genre = req.params.genre,
-// 		  word = req.params.word;
-//   console.log('getItemsByGenreAndWord');
-//   console.log(`get: genre = ${req.body.genre}, word = ${req.body.word}`);
-// 	var answer = data.getItemsByGenreAndWord(genre, word);
-// 	res.status(200).json(answer);
-//   });
-// app.put('/getItemsByGenreAndWord/:genre/:word', (req,res) => {
-//   var genre = req.params.genre,
-//       word = req.params.word;
-//   console.log('getItemsByGenreAndWord');
-//   console.log(`put: genre = ${req.body.genre}, word = ${req.body.word}`);
-//   var answer = data.getItemsByGenreAndWord(year, time);
-//   res.status(200).json(answer);
-//   });
-// app.post('/getItemsByGenreAndWord/', (req,res) => {
-//   var genre = req.body.genre,
-//       word = req.body.word;
-//   console.log('getItemsByGenreAndWord');
-//   console.log(`post: genre = ${req.body.genre}, word = ${req.body.word}`);
-//   var answer = data.getItemsByGenreAndWord(genre, word);
-//   res.status(200).json(answer);
-//   });
+app.get('/getAllVodDB', (req,res) => {
+  console.log('getAllVodDB');
+	var answer = data.getAllVodDB();
+	res.status(200).json(answer);
+  });
+app.get('/getAllYouthItems', (req,res) => {
+  console.log('getAllYouthItems');
+	var answer = data.getAllYouthItems();
+	res.status(200).json(answer);
+  });
+app.post('/getStarData/', (req,res) => {
+  var star1 = req.body.star;
+  console.log('getStarData');
+	console.log(`post: star = ${req.body.star}`);
+	var answer = data.getStarData(star1);
+	res.status(200).json(answer);
+  });
+app.get('/getItemsByYearAndMinDuration/:year/:time', (req,res) => {
+	var year = req.params.year,
+		time = req.params.time;
+  console.log('getItemsByYearAndMinDuration');
+  console.log(`get: year = ${req.body.year}, time = ${req.body.time}`);
+	var answer = data.getItemsByYearAndMinDuration(year, time);
+	res.status(200).json(answer);
+  });
+app.put('/getItemsByYearAndMinDuration/:year/:time', (req,res) => {
+  var year = req.params.year,
+    time = req.params.time;
+  console.log('getItemsByYearAndMinDuration');
+  console.log(`put: year = ${req.params.year}, time = ${req.params.time}`);
+  var answer = data.getItemsByYearAndMinDuration(year, time);
+  res.status(200).json(answer);
+  });
+app.post('/getItemsByYearAndMinDuration/', (req,res) => {
+  var year = req.body.year,
+    time = req.body.time;
+  console.log('getItemsByYearAndMinDuration');
+  console.log(`post: year = ${req.body.year}, time = ${req.body.time}`);
+  var answer = data.getItemsByYearAndMinDuration(year, time);
+  res.status(200).json(answer);
+  });
 app.all('*', function(req, res) {
-  var error = {"error":"item not found"};
-  res.status(200).json(error);
+  res.send(`Got lost? This is a friendly 404 page :)`);
 });
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
